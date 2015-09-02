@@ -19,19 +19,19 @@ Beide applicaties kunnen tegelijkertijd via F5 gestart worden:
 ###  Deel 2: conditional compilation
 
 * Voeg appbar boven en onderaan mainpage toe. Bboven en onder grid in xaml voeg je volgende code toe:
-'''
+```
 <Page.TopAppBar>
         <AppBar>
             <StackPanel Height="300" Orientation="Horizontal" HorizontalAlignment="Stretch" Background="Pink"></StackPanel>
         </AppBar>
 </Page.TopAppBar>
-'''
+```
 en
-'''
+```
 <Page.BottomAppBar>
         <CommandBar Background="Green">
             <AppBarButton Icon="Like" Label="Like"/>
             <AppBarButton Icon="Clock" Label="Navigate"></AppBarButton>
         </CommandBar>
     </Page.BottomAppBar>
-'''
+```
