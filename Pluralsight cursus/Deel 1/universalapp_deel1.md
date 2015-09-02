@@ -16,7 +16,7 @@ Beide applicaties kunnen tegelijkertijd via F5 gestart worden:
 * Kies "Multiple startup projects"
 * Zet als action "start" bij beide projecten.
 
-###  Deel 2: conditional compilation
+##  Deel 2: conditional compilation
 
 * Voeg appbar boven en onderaan mainpage toe. Bboven en onder grid in xaml voeg je volgende code toe:
 ```
@@ -65,3 +65,6 @@ en
 </Page.BottomAppBar>
 ```
 Merk op dat we er ook voor zorgen dat het upload icoontje enkel zichtbaar is in de Windows Phone versie.
+
+## Einde
+[Sourcecode](sourcecodedeel1.zip)
