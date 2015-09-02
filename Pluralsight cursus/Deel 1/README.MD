@@ -1,6 +1,9 @@
 # Universal App
 Acties te doen in Pluralsight cursus [Introduction to Building Universal Store Apps With C# and XAML]
-(http://www.pluralsight.com/courses/building-universal-store-apps-csharp-xaml) 
+(http://www.pluralsight.com/courses/building-universal-store-apps-csharp-xaml) hoofdstuk 3 "Working with the view".
+
+Dit deel is tot en met chapter "Conditional Compilation of XAML"
+
 ## Deel 1: demo universal app
 * Verplaats Mainpage.Xaml naar shared project
 * Voeg usercontrol toe aan Windows Phone project
@@ -65,6 +68,7 @@ en
 </Page.BottomAppBar>
 ```
 Merk op dat we er ook voor zorgen dat het upload icoontje enkel zichtbaar is in de Windows Phone versie.
+
 
 ## Einde
 [Sourcecode](sourcecodedeel1.zip)
